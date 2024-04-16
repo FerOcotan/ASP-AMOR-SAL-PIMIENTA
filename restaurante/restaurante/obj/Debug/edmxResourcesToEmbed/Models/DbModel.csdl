@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pimientaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="balance">
+    <Key>
+      <PropertyRef Name="id_cuenta" />
+    </Key>
+    <Property Name="id_cuenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titular" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tipo_cuenta" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dui" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="saldo" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="cargo">
+    <Key>
+      <PropertyRef Name="id_cargo" />
+    </Key>
+    <Property Name="id_cargo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_cargo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="horas_laborales" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="350" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="salario" Type="Double" Nullable="false" />
+    <NavigationProperty Name="empleado" Relationship="Self.FK_empleado_cargo" FromRole="cargo" ToRole="empleado" />
+  </EntityType>
+  <EntityType Name="compra">
+    <Key>
+      <PropertyRef Name="id_compra" />
+    </Key>
+    <Property Name="id_compra" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_stock" Type="Int32" Nullable="false" />
+    <Property Name="id_proveedor" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Double" Nullable="false" />
+    <Property Name="precio_compra" Type="Double" Nullable="false" />
+    <NavigationProperty Name="proveedor" Relationship="Self.FK_compra_proveedor" FromRole="compra" ToRole="proveedor" />
+    <NavigationProperty Name="stock" Relationship="Self.FK_compra_stock" FromRole="compra" ToRole="stock" />
+  </EntityType>
+  <EntityType Name="deposito_empleado">
+    <Key>
+      <PropertyRef Name="id_deposito" />
+    </Key>
+    <Property Name="id_deposito" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_empleado" Type="Int32" Nullable="false" />
+    <Property Name="fecha_pagado" Type="DateTime" Precision="0" />
+    <Property Name="propina_mes" Type="Double" />
+    <Property Name="salario_mes" Type="Double" />
+    <Property Name="total_mes" Type="Double" />
+    <Property Name="total_acumulado" Type="Double" />
+    <NavigationProperty Name="empleado" Relationship="Self.FK_deposito_empleado_empleado" FromRole="deposito_empleado" ToRole="empleado" />
+  </EntityType>
+  <EntityType Name="detalle_orden">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_orden" Type="Int32" Nullable="false" />
+    <Property Name="id_producto" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="orden" Relationship="Self.FK_detalle_orden_orden" FromRole="detalle_orden" ToRole="orden" />
+    <NavigationProperty Name="producto" Relationship="Self.FK_detalle_orden_producto" FromRole="detalle_orden" ToRole="producto" />
+  </EntityType>
+  <EntityType Name="empleado">
+    <Key>
+      <PropertyRef Name="id_empleado" />
+    </Key>
+    <Property Name="id_empleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="apellido" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dui" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="id_cargo" Type="Int32" />
+    <NavigationProperty Name="cargo" Relationship="Self.FK_empleado_cargo" FromRole="empleado" ToRole="cargo" />
+    <NavigationProperty Name="deposito_empleado" Relationship="Self.FK_deposito_empleado_empleado" FromRole="empleado" ToRole="deposito_empleado" />
+    <NavigationProperty Name="orden" Relationship="Self.FK_orden_empleado" FromRole="empleado" ToRole="orden" />
+  </EntityType>
+  <EntityType Name="orden">
+    <Key>
+      <PropertyRef Name="id_orden" />
+    </Key>
+    <Property Name="id_orden" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_empleado" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="n_mesa" Type="Int32" Nullable="false" />
+    <Property Name="estado" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="total" Type="Double" />
+    <Property Name="propina" Type="Double" />
+    <NavigationProperty Name="detalle_orden" Relationship="Self.FK_detalle_orden_orden" FromRole="orden" ToRole="detalle_orden" />
+    <NavigationProperty Name="empleado" Relationship="Self.FK_orden_empleado" FromRole="orden" ToRole="empleado" />
+  </EntityType>
+  <EntityType Name="producto">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="categoria" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="precio" Type="Double" Nullable="false" />
+    <NavigationProperty Name="detalle_orden" Relationship="Self.FK_detalle_orden_producto" FromRole="producto" ToRole="detalle_orden" />
+  </EntityType>
+  <EntityType Name="proveedor">
+    <Key>
+      <PropertyRef Name="id_proveedor" />
+    </Key>
+    <Property Name="id_proveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_proveedor" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="compra" Relationship="Self.FK_compra_proveedor" FromRole="proveedor" ToRole="compra" />
+  </EntityType>
+  <EntityType Name="stock">
+    <Key>
+      <PropertyRef Name="id_stock" />
+    </Key>
+    <Property Name="id_stock" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_ingrediente" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cantidad" Type="Double" Nullable="false" />
+    <NavigationProperty Name="compra" Relationship="Self.FK_compra_stock" FromRole="stock" ToRole="compra" />
+  </EntityType>
+  <Association Name="FK_empleado_cargo">
+    <End Role="cargo" Type="Self.cargo" Multiplicity="0..1" />
+    <End Role="empleado" Type="Self.empleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cargo">
+        <PropertyRef Name="id_cargo" />
+      </Principal>
+      <Dependent Role="empleado">
+        <PropertyRef Name="id_cargo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_compra_proveedor">
+    <End Role="proveedor" Type="Self.proveedor" Multiplicity="1" />
+    <End Role="compra" Type="Self.compra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="proveedor">
+        <PropertyRef Name="id_proveedor" />
+      </Principal>
+      <Dependent Role="compra">
+        <PropertyRef Name="id_proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_compra_stock">
+    <End Role="stock" Type="Self.stock" Multiplicity="1" />
+    <End Role="compra" Type="Self.compra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stock">
+        <PropertyRef Name="id_stock" />
+      </Principal>
+      <Dependent Role="compra">
+        <PropertyRef Name="id_stock" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_deposito_empleado_empleado">
+    <End Role="empleado" Type="Self.empleado" Multiplicity="1" />
+    <End Role="deposito_empleado" Type="Self.deposito_empleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="empleado">
+        <PropertyRef Name="id_empleado" />
+      </Principal>
+      <Dependent Role="deposito_empleado">
+        <PropertyRef Name="id_empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detalle_orden_orden">
+    <End Role="orden" Type="Self.orden" Multiplicity="1" />
+    <End Role="detalle_orden" Type="Self.detalle_orden" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="orden">
+        <PropertyRef Name="id_orden" />
+      </Principal>
+      <Dependent Role="detalle_orden">
+        <PropertyRef Name="id_orden" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detalle_orden_producto">
+    <End Role="producto" Type="Self.producto" Multiplicity="1" />
+    <End Role="detalle_orden" Type="Self.detalle_orden" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="producto">
+        <PropertyRef Name="id_producto" />
+      </Principal>
+      <Dependent Role="detalle_orden">
+        <PropertyRef Name="id_producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orden_empleado">
+    <End Role="empleado" Type="Self.empleado" Multiplicity="1" />
+    <End Role="orden" Type="Self.orden" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="empleado">
+        <PropertyRef Name="id_empleado" />
+      </Principal>
+      <Dependent Role="orden">
+        <PropertyRef Name="id_empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbModel" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="balance" EntityType="Self.balance" />
+    <EntitySet Name="cargo" EntityType="Self.cargo" />
+    <EntitySet Name="compra" EntityType="Self.compra" />
+    <EntitySet Name="deposito_empleado" EntityType="Self.deposito_empleado" />
+    <EntitySet Name="detalle_orden" EntityType="Self.detalle_orden" />
+    <EntitySet Name="empleado" EntityType="Self.empleado" />
+    <EntitySet Name="orden" EntityType="Self.orden" />
+    <EntitySet Name="producto" EntityType="Self.producto" />
+    <EntitySet Name="proveedor" EntityType="Self.proveedor" />
+    <EntitySet Name="stock" EntityType="Self.stock" />
+    <AssociationSet Name="FK_empleado_cargo" Association="Self.FK_empleado_cargo">
+      <End Role="cargo" EntitySet="cargo" />
+      <End Role="empleado" EntitySet="empleado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_compra_proveedor" Association="Self.FK_compra_proveedor">
+      <End Role="proveedor" EntitySet="proveedor" />
+      <End Role="compra" EntitySet="compra" />
+    </AssociationSet>
+    <AssociationSet Name="FK_compra_stock" Association="Self.FK_compra_stock">
+      <End Role="stock" EntitySet="stock" />
+      <End Role="compra" EntitySet="compra" />
+    </AssociationSet>
+    <AssociationSet Name="FK_deposito_empleado_empleado" Association="Self.FK_deposito_empleado_empleado">
+      <End Role="empleado" EntitySet="empleado" />
+      <End Role="deposito_empleado" EntitySet="deposito_empleado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detalle_orden_orden" Association="Self.FK_detalle_orden_orden">
+      <End Role="orden" EntitySet="orden" />
+      <End Role="detalle_orden" EntitySet="detalle_orden" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detalle_orden_producto" Association="Self.FK_detalle_orden_producto">
+      <End Role="producto" EntitySet="producto" />
+      <End Role="detalle_orden" EntitySet="detalle_orden" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orden_empleado" Association="Self.FK_orden_empleado">
+      <End Role="empleado" EntitySet="empleado" />
+      <End Role="orden" EntitySet="orden" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

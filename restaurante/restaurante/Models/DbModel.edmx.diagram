@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6e3863c2b114aa7b6c2469fda21f601" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="pimientaModel.balance" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.cargo" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.compra" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.deposito_empleado" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.detalle_orden" Width="1.5" PointX="7.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.empleado" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.orden" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.producto" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.proveedor" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="pimientaModel.stock" Width="1.5" PointX="7.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="pimientaModel.FK_empleado_cargo" ManuallyRouted="false" />
+        <AssociationConnector Association="pimientaModel.FK_compra_proveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="pimientaModel.FK_compra_stock" ManuallyRouted="false" />
+        <AssociationConnector Association="pimientaModel.FK_deposito_empleado_empleado" ManuallyRouted="false" />
+        <AssociationConnector Association="pimientaModel.FK_detalle_orden_orden" ManuallyRouted="false" />
+        <AssociationConnector Association="pimientaModel.FK_detalle_orden_producto" ManuallyRouted="false" />
+        <AssociationConnector Association="pimientaModel.FK_orden_empleado" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
