@@ -1,42 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\charl\\source\\repos\\restaurante\\",
+  "WorkspaceRootPath": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\views\\producto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\producto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\views\\producto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\producto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\views\\producto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\producto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|d:\\users\\charl\\source\\repos\\restaurante\\restaurante\\views\\producto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\producto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,118 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:20:12.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "restaurante\\Controllers\\ProductoController.cs",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "restaurante\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBwAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T05:17:29.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Edit.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Producto\\Edit.cshtml",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Edit.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Producto\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:07:16.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Delete.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Producto\\Delete.cshtml",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Delete.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Producto\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T04:17:36.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Create.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Producto\\Create.cshtml",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Create.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Producto\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T04:15:43.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Details.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Producto\\Details.cshtml",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Details.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Producto\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T04:11:29.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Index.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Producto\\Index.cshtml",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Views\\Producto\\Index.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Producto\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T03:55:01.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "producto.cs",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Models\\producto.cs",
-              "RelativeDocumentMoniker": "restaurante\\Models\\producto.cs",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Models\\producto.cs",
-              "RelativeToolTip": "restaurante\\Models\\producto.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T02:50:27.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "DbModel.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Models\\DbModel.edmx",
+              "DocumentMoniker": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\DbModel.edmx",
               "RelativeDocumentMoniker": "restaurante\\Models\\DbModel.edmx",
               "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Models\\DbModel.edmx [Diagram1]",
-              "RelativeToolTip": "restaurante\\Models\\DbModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-04-16T02:32:47.551Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-04-16T02:32:47.551Z"
             }
           ]
         }

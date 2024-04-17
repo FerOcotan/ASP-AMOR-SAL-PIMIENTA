@@ -11,23 +11,38 @@ namespace restaurante.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class orden
     {
         public orden()
         {
             this.detalle_orden = new HashSet<detalle_orden>();
         }
-    
+
+
+
+        [Display(Name = "#")]
         public int id_orden { get; set; }
+        [Display(Name = "ID de Empleado")]
         public int id_empleado { get; set; }
+        [Display(Name = "Fecha")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/d/yyyy}")]
+        [DataType(DataType.DateTime)]
+
         public System.DateTime fecha { get; set; }
+        [Display(Name = "Numero de Mesa")]
         public int n_mesa { get; set; }
+        [Display(Name = "Estado de Orden")]
         public string estado { get; set; }
+        [Display(Name = "Total")]
         public Nullable<double> total { get; set; }
+        [Display(Name = "Propina")]
         public Nullable<double> propina { get; set; }
     
         public virtual ICollection<detalle_orden> detalle_orden { get; set; }
         public virtual empleado empleado { get; set; }
     }
+
+
 }
