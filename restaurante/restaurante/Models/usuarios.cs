@@ -12,14 +12,10 @@ namespace restaurante.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class detalle_orden
+    public partial class usuarios
     {
-        public int id_detalle { get; set; }
-        public int id_orden { get; set; }
-        public int id_producto { get; set; }
-        public int cantidad { get; set; }
-    
-        public virtual orden orden { get; set; }
-        public virtual producto producto { get; set; }
+        public int Id { get; set; }
+        public string UserName { get; set; }
+        public string PasswordHash { get; set; }
     }
 }

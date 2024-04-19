@@ -48,7 +48,18 @@ namespace restaurante.Controllers
         // GET: Detalle/Create
         public ActionResult Create()
         {
+            /*using (DbModel context = new DbModel()) 
+            {
+                // Ajusta "Nombre" según el campo que quieres mostrar
+                ViewBag.id_orden = new SelectList(context.orden, "id_orden", "Nombre");
+
+                // Ajusta "NombreProducto" según el campo que quieres mostrar
+                ViewBag.id_producto = new SelectList(context.producto, "id_producto", "NombreProducto"); 
+                return View();
+            }*/
+
             return View();
+         
         }
 
         // POST: Detalle/Create
@@ -72,6 +83,39 @@ namespace restaurante.Controllers
                 return View();
             }
         }
+
+        public ActionResult EditKitchen(int id)
+        {
+            using (DbModel context = new DbModel())
+            {
+                return View(context.detalle_orden.Where(x => x.id_detalle == id).FirstOrDefault());
+
+            }
+        }
+
+        [HttpPost]
+        public ActionResult EditKitchen(int id, detalle_orden detalle_orden)
+        {
+            try
+            {
+                // TODO: Add update logic here
+                using (DbModel context = new DbModel())
+                {
+                    context.Entry(detalle_orden).State = EntityState.Modified;
+                    context.SaveChanges();
+                }
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+
+
+
 
         // GET: Detalle/Edit/5
         public ActionResult Edit(int id)

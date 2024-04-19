@@ -182,6 +182,9 @@
     <Compile Include="Models\stock.cs">
       <DependentUpon>DbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\usuarios.cs">
+      <DependentUpon>DbModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -266,13 +269,16 @@
     <Content Include="Views\Orden\Create.cshtml" />
     <Content Include="Views\Orden\Edit.cshtml" />
     <Content Include="Views\Orden\Delete.cshtml" />
-    <Content Include="Views\Detalle\Delete.cshtml" />
-    <Content Include="Views\Detalle\Create.cshtml" />
     <Content Include="Views\Detalle\Index.cshtml" />
     <Content Include="Views\Detalle\Kitchen.cshtml" />
+    <Content Include="Views\Detalle\Create.cshtml" />
+    <Content Include="Views\Detalle\Edit.cshtml" />
+    <Content Include="Views\Detalle\Delete.cshtml" />
+    <Content Include="Views\Detalle\EditKitchen.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Kitchen\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
