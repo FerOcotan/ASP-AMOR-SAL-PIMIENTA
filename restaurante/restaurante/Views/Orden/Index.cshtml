@@ -4,10 +4,11 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Create New Order</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create","", new {@class= "btn btn-success"})
+    @Html.ActionLink("Create New", "Create", "", new { @class = "btn btn-success" })
+    <a href="@Url.Action("Index", "Detalle")" class="btn btn-success">Orders</a>
 </p>
 <table class="table">
     <tr>
@@ -35,36 +36,39 @@
         <th>Acciones</th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.id_orden)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.id_empleado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.fecha)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.n_mesa)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.estado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.total)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.propina)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.id_orden }, new { @class = "btn btn-warning" }) |
-            @Html.ActionLink("Details", "Details", new { id = item.id_orden }, new { @class = "btn btn-primary" }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.id_orden }, new { @class = "btn btn-danger" })
-            <a href="@Url.Action("Index", "Detalle")" class="btn btn-success">Agregar platos</a>
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_orden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_empleado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.n_mesa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.propina)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id_orden }, new { @class = "btn btn-warning" }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id_orden }, new { @class = "btn btn-primary" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id_orden }, new { @class = "btn btn-danger" })
+
+                <!-- Modificamos el enlace para pasar el id_orden como parámetro -->
+                <a href="@Url.Action("Create", "Detalle", new { id_orden = item.id_orden })" class="btn btn-success">Add products</a>
+            </td>
+        </tr>
+    }
 
 </table>

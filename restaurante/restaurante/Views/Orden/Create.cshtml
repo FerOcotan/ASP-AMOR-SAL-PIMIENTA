@@ -11,72 +11,92 @@
 {
     @Html.AntiForgeryToken()
     
-    <div class="form-horizontal">
-        <h4>orden</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.id_orden, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.id_orden, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.id_orden, "", new { @class = "text-danger" })
-            </div>
-        </div>
+<div class="form-horizontal">
+    <h4>orden</h4>
+    <hr />
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.id_empleado, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.id_empleado, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.id_empleado, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.fecha, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.fecha, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.fecha, "", new { @class = "text-danger" })
-            </div>
-        </div>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.n_mesa, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.n_mesa, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.n_mesa, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.estado, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.estado, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.estado, "", new { @class = "text-danger" })
-            </div>
-        </div>
+    
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.total, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.total, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.total, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.propina, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.propina, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.propina, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.id_empleado, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.id_empleado, new SelectList(new[] {
+                new SelectListItem { Text = "Fernanda", Value = "1" },
+                new SelectListItem { Text = "Angela", Value = "8" },
+                new SelectListItem { Text = "Gufer", Value = "3" }
+                // Puedes agregar más opciones aquí según sea necesario
+            }, "Value", "Text"), "Seleccionar empleado", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.id_empleado, "", new { @class = "text-danger" })
         </div>
     </div>
+
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.fecha, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <input type="date" class="form-control" id="fecha" name="fecha" />
+            @Html.ValidationMessageFor(model => model.fecha, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.n_mesa, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.n_mesa, new SelectList(new[] {
+                new SelectListItem { Text = "Mesa 1", Value = "1" },
+                new SelectListItem { Text = "Mesa 2", Value = "2" },
+                new SelectListItem { Text = "Mesa 3", Value = "3" },
+                new SelectListItem { Text = "Mesa 4", Value = "4" },
+               new SelectListItem { Text = "Mesa 5", Value = "5" },
+               new SelectListItem { Text = "Mesa 6", Value = "6" }
+                // Agrega más opciones aquí según sea necesario
+            }, "Value", "Text"), "Seleccionar mesa", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.n_mesa, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.estado, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.estado, new SelectList(new[] {
+                new SelectListItem { Text = "Listo", Value = "disponible" },
+                new SelectListItem { Text = "Esperando", Value = "pendiente" },
+                // Agrega más opciones según sea necesario
+            }, "Value", "Text"), "Seleccionar estado", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.estado, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.total, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.total, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.total, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.propina, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.propina, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.propina, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
 }
 
 <div>
@@ -86,3 +106,18 @@
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
+
+<script>
+    // Obtener el input de fecha
+    var fechaInput = document.getElementById('fecha');
+
+    // Agregar un listener para cuando el valor cambie
+    fechaInput.addEventListener('change', function() {
+        // Obtener la fecha ingresada
+        var fechaSeleccionada = new Date(this.value);
+        // Formatear la fecha según el formato deseado (YYYY-MM-DD)
+        var fechaFormateada = fechaSeleccionada.getFullYear() + '-' + ('0' + (fechaSeleccionada.getMonth() + 1)).slice(-2) + '-' + ('0' + fechaSeleccionada.getDate()).slice(-2);
+        // Establecer el valor formateado en el campo de fecha
+        this.value = fechaFormateada;
+    });
+</script>

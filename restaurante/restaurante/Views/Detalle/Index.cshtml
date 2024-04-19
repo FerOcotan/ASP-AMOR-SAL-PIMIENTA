@@ -1,10 +1,11 @@
 ﻿@model IEnumerable<restaurante.Models.detalle_orden>
+<link rel="stylesheet" href="~/Content/tablas.css">
 
 @{
     ViewBag.Title = "Indexx";
 }
 
-<h2>Indexx</h2>
+<h2>Add Dishes</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -29,29 +30,30 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.id_detalle)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.id_orden)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.id_producto)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.cantidad)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.producto.nombre)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.id_detalle }) |
-           
-            @Html.ActionLink("Delete", "Delete", new { id = item.id_detalle })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_detalle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_orden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_producto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cantidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.producto.nombre)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id_detalle }) |
+
+                @Html.ActionLink("Delete", "Delete", new { id = item.id_detalle })
+            </td>
+        </tr>
+    }
 
 </table>

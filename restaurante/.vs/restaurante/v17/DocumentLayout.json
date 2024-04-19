@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\",
+  "WorkspaceRootPath": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\charl\\documents\\github\\asp-amor-sal-pimienta\\restaurante\\restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\models\\viewmodels\\tablaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\models\\viewmodels\\tablaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\controllers\\detallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\controllers\\detallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -14,19 +26,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 904,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\DbModel.edmx",
+              "RelativeDocumentMoniker": "restaurante\\Models\\DbModel.edmx",
+              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\DbModel.edmx [Diagram1]",
+              "RelativeToolTip": "restaurante\\Models\\DbModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-04-19T21:28:59.925Z",
+              "EditorCaption": " [Diagram1]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DbModel.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\DbModel.edmx",
-              "RelativeDocumentMoniker": "restaurante\\Models\\DbModel.edmx",
-              "ToolTip": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\DbModel.edmx [Diagram1]",
-              "RelativeToolTip": "restaurante\\Models\\DbModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-04-19T15:49:28.515Z",
-              "EditorCaption": " [Diagram1]"
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "restaurante\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "restaurante\\Controllers\\HomeController.cs*",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T21:20:55.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TablaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\ViewModels\\TablaViewModel.cs",
+              "RelativeDocumentMoniker": "restaurante\\Models\\ViewModels\\TablaViewModel.cs",
+              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\ViewModels\\TablaViewModel.cs",
+              "RelativeToolTip": "restaurante\\Models\\ViewModels\\TablaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T21:10:48.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetalleController.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Controllers\\DetalleController.cs",
+              "RelativeDocumentMoniker": "restaurante\\Controllers\\DetalleController.cs",
+              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Controllers\\DetalleController.cs",
+              "RelativeToolTip": "restaurante\\Controllers\\DetalleController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAIwAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T21:13:50.979Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 191,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

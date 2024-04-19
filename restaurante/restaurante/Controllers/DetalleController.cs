@@ -46,21 +46,16 @@ namespace restaurante.Controllers
         }
 
         // GET: Detalle/Create
-        public ActionResult Create()
+        public ActionResult Create(int id_orden)
         {
-            /*using (DbModel context = new DbModel()) 
-            {
-                // Ajusta "Nombre" según el campo que quieres mostrar
-                ViewBag.id_orden = new SelectList(context.orden, "id_orden", "Nombre");
+            // Puedes utilizar el id_orden como necesites, por ejemplo, pasándolo a la vista
+            ViewBag.id_orden = id_orden;
 
-                // Ajusta "NombreProducto" según el campo que quieres mostrar
-                ViewBag.id_producto = new SelectList(context.producto, "id_producto", "NombreProducto"); 
-                return View();
-            }*/
 
+            // Aquí puedes realizar cualquier otra lógica necesaria antes de mostrar la vista de creación
             return View();
-         
         }
+
 
         // POST: Detalle/Create
         [HttpPost]
@@ -83,6 +78,7 @@ namespace restaurante.Controllers
                 return View();
             }
         }
+
 
         public ActionResult EditKitchen(int id)
         {
