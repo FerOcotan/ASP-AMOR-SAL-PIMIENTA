@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\restaurante",
+    "\\restaurante\\restaurante",
+    "\\restaurante\\restaurante\\Views",
+    "\\restaurante\\restaurante\\Views\\Detalle"
   ],
-  "SelectedNode": "\\restaurante.sln",
+  "SelectedNode": "\\restaurante\\restaurante\\Views\\Detalle\\Kitchen.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -17,27 +17,30 @@
         <div>
             <div class="nombre-pagina">
 
-                <div class="logo-container" id="cloud">
-                    <img src='~/Content/Imagenes/Logo.png' alt="  ASP" class="logo">
-                </div>
+                <a href="/Home">
+                    <div class="logo-container" id="cloud">
+                        <img src='~/Content/Imagenes/Logo.png' alt="ASP" class="logo">
+                    </div>
+                </a>
 
             </div>
-            <button class="boton">
+            <a class="boton" href="/Orden" style="text-decoration: none;">
                 <ion-icon name="add-outline"></ion-icon>
                 <span> New Orden </span>
-            </button>
+            </a>
         </div>
 
         <nav class="navegacion">
             <ul>
                 <li>
-                    <a id="inbox" href="#">
+                    <a id="inbox" href="@Url.Action("Kitchen", "Detalle")">
+
                         <ion-icon name="fast-food-outline"></ion-icon>
                         <span>Kitchen</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/producto">
                         <ion-icon name="build-outline"></ion-icon>
                         <span>Admin</span>
                     </a>

@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<restaurante.Models.orden>
-
+<link rel="stylesheet" href="~/Content/tablas.css">
 @{
     ViewBag.Title = "Index";
 }
@@ -59,9 +59,10 @@
             @Html.DisplayFor(modelItem => item.propina)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id_orden }, new { @class = "btn btn-warning" }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id_orden }, new { @class = "btn btn-primary" }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id_orden }, new { @class = "btn btn-danger" })
+            @Html.ActionLink("Edit", "Edit", new { id = item.id_orden }, new { @class = "btn btn-warning" }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id_orden }, new { @class = "btn btn-primary" }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id_orden }, new { @class = "btn btn-danger" })
+            <a href="@Url.Action("Index", "Detalle")" class="btn btn-success">Agregar platos</a>
         </td>
     </tr>
 }

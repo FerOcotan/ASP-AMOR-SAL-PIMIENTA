@@ -203,6 +203,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Navbar.js" />
     <Content Include="Content\sidebar.css" />
+    <Content Include="Content\tablas.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
