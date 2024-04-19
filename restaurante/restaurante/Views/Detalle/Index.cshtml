@@ -1,0 +1,57 @@
+﻿@model IEnumerable<restaurante.Models.detalle_orden>
+
+@{
+    ViewBag.Title = "Indexx";
+}
+
+<h2>Indexx</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_detalle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_orden)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_producto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.producto.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_detalle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_orden)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_producto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cantidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.producto.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.id_detalle }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id_detalle }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id_detalle })
+        </td>
+    </tr>
+}
+
+</table>

@@ -262,3 +262,5 @@ C:\Users\MSI\Source\Repos\FerOcotan\ASP-AMOR-SAL-PIMIENTA\restaurante\restaurant
 C:\Users\MSI\Source\Repos\FerOcotan\ASP-AMOR-SAL-PIMIENTA\restaurante\restaurante\obj\Debug\restaurante.csproj.CopyComplete
 C:\Users\MSI\Source\Repos\FerOcotan\ASP-AMOR-SAL-PIMIENTA\restaurante\restaurante\obj\Debug\restaurante.dll
 C:\Users\MSI\Source\Repos\FerOcotan\ASP-AMOR-SAL-PIMIENTA\restaurante\restaurante\obj\Debug\restaurante.pdb
+C:\Users\charl\Documents\GitHub\ASP-AMOR-SAL-PIMIENTA\restaurante\restaurante\bin\EntityFramework.SqlServer.dll
+C:\Users\charl\Documents\GitHub\ASP-AMOR-SAL-PIMIENTA\restaurante\restaurante\bin\EntityFramework.SqlServer.xml

@@ -1,6 +1,7 @@
 ﻿using restaurante.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -75,7 +76,7 @@ namespace restaurante.Controllers
                 // TODO: Add update logic here
                 using (DbModel context = new DbModel()) 
                 {
-                    context.Entry(orden).State = System.Data.EntityState.Modified;
+                    context.Entry(orden).State = EntityState.Modified;
                     context.SaveChanges();
                 }
                 return RedirectToAction("Index");

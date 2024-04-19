@@ -11,13 +11,19 @@ namespace restaurante.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class detalle_orden
     {
+        [Display(Name = "#")]
         public int id_detalle { get; set; }
+        [Display(Name = "#orden")]
         public int id_orden { get; set; }
+        [Display(Name = "#producto")]
         public int id_producto { get; set; }
+        [Display(Name = "Cantidad")]
         public int cantidad { get; set; }
+
     
         public virtual orden orden { get; set; }
         public virtual producto producto { get; set; }

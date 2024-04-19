@@ -35,5 +35,6 @@ namespace restaurante.Models
         public DbSet<producto> producto { get; set; }
         public DbSet<proveedor> proveedor { get; set; }
         public DbSet<stock> stock { get; set; }
+        public DbSet<usuarios> usuarios { get; set; }
     }
 }

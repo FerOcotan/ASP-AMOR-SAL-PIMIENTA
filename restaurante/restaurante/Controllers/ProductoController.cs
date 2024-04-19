@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -76,7 +77,7 @@ namespace restaurante.Controllers
                 // TODO: Add update logic here
                 using (DbModel context = new DbModel()) 
                 {
-                    context.Entry(producto).State = EntityState.Modified;
+                    context.Entry(producto).State = System.Data.Entity.EntityState.Modified;
                     context.SaveChanges();
 
                 }

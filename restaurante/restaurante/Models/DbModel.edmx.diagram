@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="f6e3863c2b114aa7b6c2469fda21f601" Name="Diagram1" ZoomLevel="82">
+      <Diagram DiagramId="f6e3863c2b114aa7b6c2469fda21f601" Name="Diagram1" ZoomLevel="72">
         <EntityTypeShape EntityType="pimientaModel.balance" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
         <EntityTypeShape EntityType="pimientaModel.cargo" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
         <EntityTypeShape EntityType="pimientaModel.compra" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
@@ -22,6 +22,7 @@
         <AssociationConnector Association="pimientaModel.FK_detalle_orden_orden" ManuallyRouted="false" />
         <AssociationConnector Association="pimientaModel.FK_detalle_orden_producto" ManuallyRouted="false" />
         <AssociationConnector Association="pimientaModel.FK_orden_empleado" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="pimientaModel.usuarios" Width="1.5" PointX="0.75" PointY="9.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

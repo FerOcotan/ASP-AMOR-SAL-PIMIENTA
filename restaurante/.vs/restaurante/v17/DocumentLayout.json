@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\charl\\documents\\github\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\detalle\\kitchen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\detalle\\kitchen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\charl\\documents\\github\\asp-amor-sal-pimienta\\restaurante\\restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\models\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\charl\\documents\\github\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\detalle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\detalle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\charl\\documents\\github\\asp-amor-sal-pimienta\\restaurante\\restaurante\\controllers\\detallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\controllers\\detallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\charl\\documents\\github\\asp-amor-sal-pimienta\\restaurante\\restaurante\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\charl\\documents\\github\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\orden\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\orden\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Kitchen.cshtml",
+              "DocumentMoniker": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Kitchen.cshtml",
+              "RelativeDocumentMoniker": "restaurante\\Views\\Detalle\\Kitchen.cshtml",
+              "ToolTip": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Kitchen.cshtml",
+              "RelativeToolTip": "restaurante\\Views\\Detalle\\Kitchen.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T06:22:48.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Index.cshtml",
+              "RelativeDocumentMoniker": "restaurante\\Views\\Detalle\\Index.cshtml",
+              "ToolTip": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Index.cshtml",
+              "RelativeToolTip": "restaurante\\Views\\Detalle\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T06:09:29.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Create.cshtml",
+              "RelativeDocumentMoniker": "restaurante\\Views\\Orden\\Create.cshtml",
+              "ToolTip": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Create.cshtml",
+              "RelativeToolTip": "restaurante\\Views\\Orden\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T05:49:52.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "restaurante\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "restaurante\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAE8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T03:56:18.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetalleController.cs",
+              "DocumentMoniker": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Controllers\\DetalleController.cs",
+              "RelativeDocumentMoniker": "restaurante\\Controllers\\DetalleController.cs",
+              "ToolTip": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Controllers\\DetalleController.cs",
+              "RelativeToolTip": "restaurante\\Controllers\\DetalleController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T03:52:17.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DbModel.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\DbModel.edmx",
               "RelativeDocumentMoniker": "restaurante\\Models\\DbModel.edmx",
-              "ToolTip": "D:\\Users\\charl\\source\\repos\\restaurante\\restaurante\\Models\\DbModel.edmx [Diagram1]",
+              "ToolTip": "C:\\Users\\charl\\Documents\\GitHub\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Models\\DbModel.edmx [Diagram1]",
+              "RelativeToolTip": "restaurante\\Models\\DbModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-04-16T02:32:47.551Z"
+              "WhenOpened": "2024-04-16T02:32:47.551Z",
+              "EditorCaption": " [Diagram1]"
             }
           ]
         }

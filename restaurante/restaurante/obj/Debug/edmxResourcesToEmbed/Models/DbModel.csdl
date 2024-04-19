@@ -238,5 +238,14 @@
       <End Role="empleado" EntitySet="empleado" />
       <End Role="orden" EntitySet="orden" />
     </AssociationSet>
+    <EntitySet Name="usuarios" EntityType="pimientaModel.usuarios" />
   </EntityContainer>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordHash" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

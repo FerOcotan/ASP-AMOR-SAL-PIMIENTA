@@ -101,6 +101,14 @@
     <Property Name="nombre_ingrediente" Type="varchar" MaxLength="45" Nullable="false" />
     <Property Name="cantidad" Type="float" Nullable="false" />
   </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
   <Association Name="FK_compra_proveedor">
     <End Role="proveedor" Type="Self.proveedor" Multiplicity="1" />
     <End Role="compra" Type="Self.compra" Multiplicity="*" />
@@ -196,6 +204,7 @@
     <EntitySet Name="producto" EntityType="Self.producto" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="proveedor" EntityType="Self.proveedor" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="stock" EntityType="Self.stock" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_compra_proveedor" Association="Self.FK_compra_proveedor">
       <End Role="proveedor" EntitySet="proveedor" />
       <End Role="compra" EntitySet="compra" />
