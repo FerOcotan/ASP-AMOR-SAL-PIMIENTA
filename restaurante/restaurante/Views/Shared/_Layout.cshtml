@@ -1,40 +1,92 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - AMOR SAL Y PIMIENTA </title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="~/Content/sidebar.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark flex-column"> <!-- Añade la clase 'flex-column' aquí -->
-        <div class="container">
-            @Html.ActionLink("AMOR SAL Y PIMIENTA", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Acerca de", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contacto", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
-        </footer>
+    <div class="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    <div class="barra-lateral">
+        <div>
+            <div class="nombre-pagina">
+
+                <div class="logo-container" id="cloud" >
+                    <img src='~/Content/Imagenes/Logo.png' alt="  ASP" class="logo">
+                </div>
+
+            </div>
+            <button class="boton">
+                <ion-icon name="add-outline"></ion-icon>
+                <span> New Orden </span>
+            </button>
+        </div>
+
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a id="inbox" href="#">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                        <span>Kitchen</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="build-outline"></ion-icon>
+                        <span>Admin</span>
+                    </a>
+                </li>
+                <!-- Add other menu items here -->
+            </ul>
+        </nav>
+
+        <div>
+            <div class="linea"></div>
+
+            <div class="modo-oscuro">
+                <div class="info">
+                    <ion-icon name="moon-outline"></ion-icon>
+                    <span>DarkMode</span>
+                </div>
+                <div class="switch">
+                    <div class="base">
+                        <div class="circulo">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="usuario">
+                
+                <div class="info-usuario">
+                    <div class="nombre-email">
+                        <span class="nombre">Amor-Sal-Pimienta</span>
+                        <span class="email">ASP@gmail.com</span>
+                    </div>
+
+
+                   
+                        <ion-icon name="exit-outline"></ion-icon> 
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <main>
+        @RenderBody() <!-- Render ASP.NET dynamic content here -->
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="~/Content/Navbar.js"></script>
 </body>
 </html>
