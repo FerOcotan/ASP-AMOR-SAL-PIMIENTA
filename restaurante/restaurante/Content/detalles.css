@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* Ajusta el ancho según sea necesario */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: white;
+    align-items:center;
+}
+
+/* Estilos para la lista de detalles */
+.dl-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .dl-horizontal dt,
+    .dl-horizontal dd {
+        flex: 1 0 50%; /* Divide en dos columnas */
+        padding: 5px;
+        text-align: left;
+    }
+
+    .dl-horizontal dt {
+        font-weight: bold;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 0;
+    }
+
+/* Estilos para los enlaces */
+p {
+    margin-top: 20px;
+}
+
+¿
+
+    a:hover {
+        background-color: #0056b3;
+    }
