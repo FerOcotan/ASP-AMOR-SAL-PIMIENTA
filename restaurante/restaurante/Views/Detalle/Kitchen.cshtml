@@ -6,9 +6,7 @@
 
 <h2>Kitchen</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
 <table class="table">
     <tr>
         <th>
@@ -54,9 +52,6 @@
                 @Html.DisplayFor(modelItem => item.orden.estado)
             </th>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id_detalle }) |
-                @Html.ActionLink("Details", "Details", new { id = item.id_detalle }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.id_detalle })
             </td>
         </tr>
     }

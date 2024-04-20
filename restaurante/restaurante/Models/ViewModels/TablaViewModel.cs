@@ -10,6 +10,6 @@ namespace restaurante.Models.ViewModels
     internal class TablaViewModel
     {
         public int id_detalle { get; set; }
-        public int id_producto { get; set; }
+        public string id_producto { get; set; }
     }
 }

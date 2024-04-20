@@ -7,20 +7,14 @@
 
 <h2>Add Dishes</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.id_detalle)
-        </th>
+
         <th>
             @Html.DisplayNameFor(model => model.id_orden)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.id_producto)
-        </th>
+
         <th>
             @Html.DisplayNameFor(model => model.cantidad)
         </th>
@@ -33,15 +27,11 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.id_detalle)
-            </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.id_orden)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.id_producto)
-            </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.cantidad)
             </td>
@@ -49,11 +39,13 @@
                 @Html.DisplayFor(modelItem => item.producto.nombre)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id_detalle }) |
-
-                @Html.ActionLink("Delete", "Delete", new { id = item.id_detalle })
+                @Html.ActionLink("Editar", "Edit", new { id = item.id_producto }, new { @class = "btn btn-warning" }) |
+                @Html.ActionLink("Detalle", "Details", new { id = item.id_producto }, new { @class = "btn btn-primary" }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.id_producto }, new { @class = "btn btn-danger" })
             </td>
         </tr>
     }
+
+
 
 </table>

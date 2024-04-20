@@ -355,3 +355,27 @@ main {
 
 /* Otros estilos... */
 
+.nav-link {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none; /* Si deseas eliminar el subrayado del enlace */
+}
+
+    .nav-link ion-icon {
+        /* Estilos adicionales según sea necesario */
+        color:var(--color-boton)
+    }
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    text-decoration: none;
+}

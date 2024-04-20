@@ -13,7 +13,7 @@ namespace restaurante.Controllers
 {
     public class UsuarioLoginController : Controller
     {
-        static string con = "Data Source=LAPTOP-R91Q5M6Q;Initial Catalog=pimienta;Integrated Security=true";
+        static string con = "Data Source=CAPSS-PC\\SQLEXPRESS;Initial Catalog=pimienta;Integrated Security=true";
         // GET: UsuarioLogin
         public ActionResult Login()
         {

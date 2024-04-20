@@ -4,8 +4,9 @@
     "\\restaurante",
     "\\restaurante\\restaurante",
     "\\restaurante\\restaurante\\Views",
-    "\\restaurante\\restaurante\\Views\\Detalle"
+    "\\restaurante\\restaurante\\Views\\Detalle",
+    "\\restaurante\\restaurante\\Views\\UsuarioLogin"
   ],
-  "SelectedNode": "\\restaurante\\restaurante\\Views\\Detalle\\Kitchen.cshtml",
+  "SelectedNode": "\\restaurante\\restaurante\\Views\\UsuarioLogin\\Login.cshtml",
   "PreviewInSolutionExplorer": false
 }

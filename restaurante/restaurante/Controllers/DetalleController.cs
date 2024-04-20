@@ -1,4 +1,5 @@
 ﻿using restaurante.Models;
+using restaurante.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -51,10 +52,41 @@ namespace restaurante.Controllers
             // Puedes utilizar el id_orden como necesites, por ejemplo, pasándolo a la vista
             ViewBag.id_orden = id_orden;
 
+            List<TablaViewModel> lst = null;
+            using (Models.DbModel db = new Models.DbModel())
+            {
+                lst = (from d in db.producto
+                       select new TablaViewModel
+                       {
+
+                           id_detalle = d.id_producto,
+                           id_producto = d.nombre,
+
+
+                       }).ToList();
+            }
+
+            List<SelectListItem> items = lst.ConvertAll(d =>
+            {
+                return new SelectListItem()
+                {
+                    Text = d.id_producto.ToString(),
+                    Value = d.id_detalle.ToString(),
+                    Selected = false
+                };
+            });
+
+
+            ViewBag.items = items;
+
+
 
             // Aquí puedes realizar cualquier otra lógica necesaria antes de mostrar la vista de creación
             return View();
         }
+
+
+
 
 
         // POST: Detalle/Create

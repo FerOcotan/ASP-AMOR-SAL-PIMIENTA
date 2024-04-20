@@ -206,6 +206,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Imagenes\Logoright.png" />
+    <Content Include="Content\Imagenes\Logoiz.png" />
+    <Content Include="Content\Login.css" />
     <Content Include="Content\Navbar.js" />
     <Content Include="Content\sidebar.css" />
     <Content Include="Content\tablas.css" />

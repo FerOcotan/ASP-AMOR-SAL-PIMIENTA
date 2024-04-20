@@ -72,11 +72,22 @@
                     <div class="nombre-email">
                         <span class="nombre">Amor-Sal-Pimienta</span>
                         <span class="email">ASP@gmail.com</span>
+
+
+
+
+                        <a href="@Url.Action("CerrarSesion", "Home")" class="nav-link">
+                            <ion-icon name="exit-outline"></ion-icon>
+                            <span class="sr-only">Salir</span> <!-- Para accesibilidad, mantiene el texto para lectores de pantalla -->
+                        </a>
+
+
                     </div>
 
 
 
-                    <ion-icon name="exit-outline"></ion-icon>
+
+
 
 
                 </div>
@@ -85,11 +96,14 @@
 
     </div>
 
+
+
     <main>
         @RenderBody() <!-- Render ASP.NET dynamic content here -->
-        <li>@Html.ActionLink("Salir", "CerrarSesion", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+        
 
     </main>
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

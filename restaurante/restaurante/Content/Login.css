@@ -1,0 +1,87 @@
+/* Estilos para el contenedor principal */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el contenedor de usuario */
+.user_card {
+    width: 100%;
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Estilos para el logotipo */
+.brand_logo_container {
+    text-align: center;
+    padding: 20px;
+}
+
+.brand_logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Estilos para el formulario */
+.form_container {
+    padding: 20px;
+}
+
+.input-group-text {
+    background-color: #f39c12;
+    border: none;
+    color: #fff;
+}
+
+.input_user, .input_pass {
+    background-color: #f9f9f9;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+    .input_user::placeholder, .input_pass::placeholder {
+        color: #999;
+    }
+
+.login_btn {
+    background-color: #A10707;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+    .login_btn:hover {
+        background-color: #c0392b;
+    }
+
+/* Estilos para las imágenes fuera del contenedor */
+.brand_logo_outside {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilo para la imagen a la izquierda */
+.brand_logo_left {
+    float: left;
+    margin-top:70px;
+    margin-left: 20px;
+}
+
+/* Estilo para la imagen a la derecha */
+.brand_logo_right {
+    float: right;
+    margin-right: 20px;
+}

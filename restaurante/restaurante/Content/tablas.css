@@ -5,7 +5,7 @@
     --color-texto: rgb(0,0,0);
     --color-texto-menu: rgb(134,136,144);
     --color-menu-hover: rgb(238,238,238);
-    --color-menu-hover-texto: rgb(0,0,0);
+    --color-menu-hover-texto: rgb(255,255,255);
     --color-boton: #A10707;
     --color-boton-texto: rgb(255,255,255);
     --color-linea: rgb(180,180,180);
@@ -36,8 +36,10 @@
 /* Style for the table */
 .table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate; /* Cambiar de collapse a separate */
+   background:var(--color-barra-lateral)
 }
+
 
     /* Style for table header */
     .table th {
@@ -50,6 +52,8 @@
     .table td {
         padding: 8px;
         border-bottom: 1px solid #ddd;
+        color:var(--color-texto)
+        background:var(--color-barra-lateral)
     }
 
     /* Style for alternating rows */
@@ -69,22 +73,22 @@
 
 .btn-success {
     background-color: var(--color-barra-lateral);
-    color: var(--color-menu-hover-texto);
+    color: var(--color-texto);
 }
 
 .btn-warning {
-    background-color: var(--color-boton-texto);
-    color: var(--color-menu-hover-texto);
+    background-color: var(--color-boton);
+    color: var(--color-texto);
 }
 
 .btn-primary {
     background-color: var(--color-boton);
-    color: var(--color-menu-hover-texto);
+    color: var(--color-texto);
 }
 
 .btn-danger {
     background-color: var(--color-boton);
-    color: var(--color-menu-hover-texto);
+    color: var(--color-texto);
 }
 
 .btn:hover {
@@ -94,5 +98,5 @@
 /* Center-align h2 */
 h2 {
     text-align: center;
-    color: var(--color-barra-lateral);
+    color: var(--color-texto);
 }
