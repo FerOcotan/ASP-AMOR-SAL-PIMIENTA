@@ -1,4 +1,5 @@
-﻿using restaurante.Models.ViewModels;
+﻿using restaurante.Models;
+using restaurante.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,10 @@ namespace restaurante.Controllers
         public ActionResult Index()
         {
 
-            using (Models.DbModel db= new Models.DbModel())
+            /*using (DbModel context = new DbModel())
             {
                 List<TablaViewModel> lst=
-                    (from d in db.detalle_orden   
+                    (from d in context.detalle_orden   
                     select new TablaViewModel
                     {
 
@@ -23,7 +24,7 @@ namespace restaurante.Controllers
                         id_producto=d.id_producto,
                     }).ToList();
              }
-
+            */
             return View();
         }
 
@@ -39,6 +40,12 @@ namespace restaurante.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult CerrarSesion()
+        {
+            Session["usuario"] = null;
+            return RedirectToAction("Login", "UsuarioLogin");
         }
     }
 }

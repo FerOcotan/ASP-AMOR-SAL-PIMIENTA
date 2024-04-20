@@ -22,7 +22,7 @@
         <AssociationConnector Association="pimientaModel.FK_detalle_orden_orden" ManuallyRouted="false" />
         <AssociationConnector Association="pimientaModel.FK_detalle_orden_producto" ManuallyRouted="false" />
         <AssociationConnector Association="pimientaModel.FK_orden_empleado" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="pimientaModel.usuarios" Width="1.5" PointX="2.25" PointY="9.625" />
+        <EntityTypeShape EntityType="pimientaModel.usuario" Width="1.5" PointX="11.125" PointY="4.625" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

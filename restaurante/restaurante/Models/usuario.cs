@@ -12,10 +12,10 @@ namespace restaurante.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class usuarios
+    public partial class usuario
     {
-        public int Id { get; set; }
-        public string UserName { get; set; }
-        public string PasswordHash { get; set; }
+        public int usuarioID { get; set; }
+        public string email { get; set; }
+        public string clave { get; set; }
     }
 }

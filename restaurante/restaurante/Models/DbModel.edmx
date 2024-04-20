@@ -106,13 +106,13 @@
           <Property Name="nombre_ingrediente" Type="varchar" MaxLength="45" Nullable="false" />
           <Property Name="cantidad" Type="float" Nullable="false" />
         </EntityType>
-        <EntityType Name="usuarios">
+        <EntityType Name="usuario">
           <Key>
-            <PropertyRef Name="Id" />
+            <PropertyRef Name="usuarioID" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="UserName" Type="nvarchar" MaxLength="100" Nullable="false" />
-          <Property Name="PasswordHash" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="usuarioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="clave" Type="varchar" MaxLength="200" Nullable="false" />
         </EntityType>
         <Association Name="FK_compra_proveedor">
           <End Role="proveedor" Type="Self.proveedor" Multiplicity="1" />
@@ -209,7 +209,7 @@
           <EntitySet Name="producto" EntityType="Self.producto" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="proveedor" EntityType="Self.proveedor" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="stock" EntityType="Self.stock" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_compra_proveedor" Association="Self.FK_compra_proveedor">
             <End Role="proveedor" EntitySet="proveedor" />
             <End Role="compra" EntitySet="compra" />
@@ -481,15 +481,15 @@
             <End Role="empleado" EntitySet="empleado" />
             <End Role="orden" EntitySet="orden" />
           </AssociationSet>
-          <EntitySet Name="usuarios" EntityType="pimientaModel.usuarios" />
+          <EntitySet Name="usuario" EntityType="pimientaModel.usuario" />
         </EntityContainer>
-        <EntityType Name="usuarios">
+        <EntityType Name="usuario">
           <Key>
-            <PropertyRef Name="Id" />
+            <PropertyRef Name="usuarioID" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="PasswordHash" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="usuarioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="clave" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -608,12 +608,12 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="usuarios">
-            <EntityTypeMapping TypeName="pimientaModel.usuarios">
-              <MappingFragment StoreEntitySet="usuarios">
-                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
-                <ScalarProperty Name="UserName" ColumnName="UserName" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
+          <EntitySetMapping Name="usuario">
+            <EntityTypeMapping TypeName="pimientaModel.usuario">
+              <MappingFragment StoreEntitySet="usuario">
+                <ScalarProperty Name="clave" ColumnName="clave" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="usuarioID" ColumnName="usuarioID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

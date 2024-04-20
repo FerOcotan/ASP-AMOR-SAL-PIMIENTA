@@ -238,14 +238,14 @@
       <End Role="empleado" EntitySet="empleado" />
       <End Role="orden" EntitySet="orden" />
     </AssociationSet>
-    <EntitySet Name="usuarios" EntityType="pimientaModel.usuarios" />
+    <EntitySet Name="usuario" EntityType="pimientaModel.usuario" />
   </EntityContainer>
-  <EntityType Name="usuarios">
+  <EntityType Name="usuario">
     <Key>
-      <PropertyRef Name="Id" />
+      <PropertyRef Name="usuarioID" />
     </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="PasswordHash" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="usuarioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="clave" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
   </EntityType>
 </Schema>
