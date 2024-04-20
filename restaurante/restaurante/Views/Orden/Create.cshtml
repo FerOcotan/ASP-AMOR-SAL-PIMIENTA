@@ -1,10 +1,10 @@
 ﻿@model restaurante.Models.orden
-
+<link rel="stylesheet" href="~/Content/input.css">
 @{
     ViewBag.Title = "Create";
 }
 
-<h2>Create</h2>
+<h2>Create Order</h2>
 
 
 @using (Html.BeginForm()) 
@@ -12,7 +12,7 @@
     @Html.AntiForgeryToken()
     
 <div class="form-horizontal">
-    <h4>orden</h4>
+   
     <hr />
 
 
@@ -66,8 +66,10 @@
         @Html.LabelFor(model => model.estado, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
             @Html.DropDownListFor(model => model.estado, new SelectList(new[] {
-                new SelectListItem { Text = "Listo", Value = "disponible" },
-                new SelectListItem { Text = "Esperando", Value = "pendiente" },
+             new SelectListItem { Text = "Listo", Value = "Listo" },
+                new SelectListItem { Text = "Cocina", Value = "Cocina" },
+                new SelectListItem { Text = "Servido", Value = "Servido" },
+                new SelectListItem { Text = "Pagado", Value = "Pagado" },
                 // Agrega más opciones según sea necesario
             }, "Value", "Text"), "Seleccionar estado", new { @class = "form-control" })
             @Html.ValidationMessageFor(model => model.estado, "", new { @class = "text-danger" })
@@ -100,7 +102,7 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "back-to-list-link" })
 </div>
 
 @section Scripts {

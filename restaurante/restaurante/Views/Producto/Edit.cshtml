@@ -1,10 +1,10 @@
 ﻿@model restaurante.Models.producto
-
+<link rel="stylesheet" href="~/Content/input.css">
 @{
     ViewBag.Title = "Edit";
 }
 
-<h2>Edit</h2>
+<h2>Edit Product</h2>
 
 
 @using (Html.BeginForm())
@@ -12,7 +12,7 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>producto</h4>
+        
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -59,7 +59,7 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "back-to-list-link" })
 </div>
 
 @section Scripts {
