@@ -63,7 +63,8 @@
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.id_orden }, new { @class = "btn btn-warning" }) |
                 @Html.ActionLink("Details", "Details", new { id = item.id_orden }, new { @class = "btn btn-primary" }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.id_orden }, new { @class = "btn btn-danger" })
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.id_orden }, new { @class = "btn btn-danger" })
+
 
                 <!-- Modificamos el enlace para pasar el id_orden como parámetro -->
                 <a href="@Url.Action("Create", "Detalle", new { id_orden = item.id_orden })" class="btn btn-success">Add products</a>

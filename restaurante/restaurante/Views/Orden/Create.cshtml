@@ -28,7 +28,8 @@
             @Html.DropDownListFor(model => model.id_empleado, new SelectList(new[] {
                 new SelectListItem { Text = "Fernanda", Value = "1" },
                 new SelectListItem { Text = "Angela", Value = "8" },
-                new SelectListItem { Text = "Gufer", Value = "3" }
+                new SelectListItem { Text = "Gufer", Value = "9" },
+                 new SelectListItem { Text = "Karlos", Value = "10" }
                 // Puedes agregar más opciones aquí según sea necesario
             }, "Value", "Text"), "Seleccionar empleado", new { @class = "form-control" })
             @Html.ValidationMessageFor(model => model.id_empleado, "", new { @class = "text-danger" })
@@ -80,7 +81,7 @@
     <div class="form-group">
         @Html.LabelFor(model => model.total, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.total, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.EditorFor(model => model.total, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
             @Html.ValidationMessageFor(model => model.total, "", new { @class = "text-danger" })
         </div>
     </div>

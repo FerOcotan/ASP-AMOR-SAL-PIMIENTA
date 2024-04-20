@@ -12,17 +12,18 @@
     @Html.AntiForgeryToken()
     
 <div class="form-horizontal">
-    
+
     <hr />
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
     <div class="form-group">
         @Html.LabelFor(model => model.id_orden, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.id_orden, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.EditorFor(model => model.id_orden, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
             @Html.ValidationMessageFor(model => model.id_orden, "", new { @class = "text-danger" })
         </div>
     </div>
+
 
     @Html.HiddenFor(model => model.id_orden)
 
@@ -32,7 +33,8 @@
             @Html.DropDownList("id_empleado", new SelectList(new[] {
                 new SelectListItem { Text = "Fernanda", Value = "1" },
                 new SelectListItem { Text = "Angela", Value = "8" },
-                new SelectListItem { Text = "Gufer", Value = "9" }
+                new SelectListItem { Text = "Gufer", Value = "9" },
+                new SelectListItem { Text = "Karlos", Value = "10" }
                 // Agrega más opciones aquí según sea necesario
             }, "Value", "Text"), "Seleccionar empleado", new { @class = "form-control" })
             @Html.ValidationMessageFor(model => model.id_empleado, "", new { @class = "text-danger" })
@@ -83,10 +85,11 @@
     <div class="form-group">
         @Html.LabelFor(model => model.total, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.total, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.EditorFor(model => model.total, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
             @Html.ValidationMessageFor(model => model.total, "", new { @class = "text-danger" })
         </div>
     </div>
+
 
     <div class="form-group">
         @Html.LabelFor(model => model.propina, htmlAttributes: new { @class = "control-label col-md-2" })

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\detalle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\detalle\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\detalle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\detalle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\orden\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\orden\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\producto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,28 +15,20 @@
       "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\producto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\orden\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\orden\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\orden\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\orden\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\detalle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\detalle\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\orden\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\orden\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\content\\tablas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\content\\tablas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\orden\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\orden\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\content\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\content\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\content\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\content\\input.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|c:\\users\\ferna\\source\\repos\\ferocotan\\asp-amor-sal-pimienta\\restaurante\\restaurante\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7A761B4-D8E6-45CA-91C2-436172379E0A}|restaurante\\restaurante.csproj|solutionrelative:restaurante\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,45 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Edit.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Detalle\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Edit.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Detalle\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Create.cshtml",
+              "RelativeDocumentMoniker": "restaurante\\Views\\Orden\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Create.cshtml",
+              "RelativeToolTip": "restaurante\\Views\\Orden\\Create.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFMAAAB+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T04:21:21.59Z",
+              "WhenOpened": "2024-04-20T06:29:39.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Create.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Detalle\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Create.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Detalle\\Create.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADsAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T04:21:07.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Producto\\Edit.cshtml",
               "RelativeDocumentMoniker": "restaurante\\Views\\Producto\\Edit.cshtml",
               "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Producto\\Edit.cshtml",
               "RelativeToolTip": "restaurante\\Views\\Producto\\Edit.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAD0AAABZAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAACIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T04:18:31.72Z",
+              "WhenOpened": "2024-04-20T06:26:21.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Producto\\Create.cshtml",
               "RelativeDocumentMoniker": "restaurante\\Views\\Producto\\Create.cshtml",
@@ -109,85 +84,59 @@
               "RelativeToolTip": "restaurante\\Views\\Producto\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T04:18:28.077Z",
+              "WhenOpened": "2024-04-20T06:26:18.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Details.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Orden\\Details.cshtml",
-              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Details.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Orden\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T04:18:18.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Create.cshtml",
-              "RelativeDocumentMoniker": "restaurante\\Views\\Orden\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Create.cshtml",
-              "RelativeToolTip": "restaurante\\Views\\Orden\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Create.cshtml",
+              "RelativeDocumentMoniker": "restaurante\\Views\\Detalle\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Detalle\\Create.cshtml",
+              "RelativeToolTip": "restaurante\\Views\\Detalle\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAACFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T04:18:15.681Z",
+              "WhenOpened": "2024-04-20T06:24:04.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "restaurante\\Views\\Producto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "restaurante\\Views\\Producto\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T06:22:46.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Edit.cshtml",
               "RelativeDocumentMoniker": "restaurante\\Views\\Orden\\Edit.cshtml",
               "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Edit.cshtml",
               "RelativeToolTip": "restaurante\\Views\\Orden\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T04:15:49.776Z",
+              "WhenOpened": "2024-04-20T06:18:24.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "tablas.css",
-              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Content\\tablas.css",
-              "RelativeDocumentMoniker": "restaurante\\Content\\tablas.css",
-              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Content\\tablas.css",
-              "RelativeToolTip": "restaurante\\Content\\tablas.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-20T03:51:37.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "input.css",
-              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Content\\input.css",
-              "RelativeDocumentMoniker": "restaurante\\Content\\input.css",
-              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Content\\input.css",
-              "RelativeToolTip": "restaurante\\Content\\input.css",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAADsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-20T03:43:04.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "sidebar.css",
-              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Content\\sidebar.css",
-              "RelativeDocumentMoniker": "restaurante\\Content\\sidebar.css",
-              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Content\\sidebar.css",
-              "RelativeToolTip": "restaurante\\Content\\sidebar.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-20T03:47:16.752Z",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Index.cshtml",
+              "RelativeDocumentMoniker": "restaurante\\Views\\Orden\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ferna\\source\\repos\\FerOcotan\\ASP-AMOR-SAL-PIMIENTA\\restaurante\\restaurante\\Views\\Orden\\Index.cshtml",
+              "RelativeToolTip": "restaurante\\Views\\Orden\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T06:17:18.698Z",
               "EditorCaption": ""
             }
           ]
